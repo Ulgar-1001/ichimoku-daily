@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-11-09T09:22:54+00:00",
+  "strategy": "Kumo Breakout 9/26/52 (daily, bougies clôturées)",
+  "universe": "top 100 perps Hyperliquid par volume moyen 90 j, HIP-3 inclus",
+  "scanned": 100,
+  "signals": [
+    {
+      "coin": "ZEC",
+      "dex": "core",
+      "params": "9/26/52",
+      "direction": "SHORT",
+      "candle_date": "2026-11-08",
+      "close": 1212.3,
+      "kumo_top": 1326.375,
+      "kumo_bottom": 1223.285,
+      "kumo_thickness_pct": 8.5,
+      "sl_opposite_edge": 1326.375,
+      "sl_distance_pct": 9.41,
+      "tenkan": 1255.6,
+      "kijun": 1224.2,
+      "tenkan_above_kijun": true,
+      "chikou_confirms": true,
+      "future_kumo": "rouge",
+      "future_kumo_confirms": true,
+      "vol_moy_90j_usd": 377400936,
+      "volume_24h_usd": 434177038,
+      "max_leverage": 10
+    }
+  ],
+  "errors": {}
+}
