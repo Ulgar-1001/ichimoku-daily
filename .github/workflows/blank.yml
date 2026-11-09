@@ -1,0 +1,28 @@
+name: Scan Ichimoku daily
+
+on:
+  schedule:
+    - cron: "20 0 * * *"   # 00:20 UTC, juste après la clôture daily
+  workflow_dispatch:        # bouton pour lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scanner
+        run: python scanner.py
+      - name: Publier les résultats
+        run: |
+          git config user.name "ichimoku-bot"
+          git config user.email "ichimoku-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Scan $(date -u +%F)" || echo "Rien de nouveau"
+          git push
