@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-25T07:46:51+00:00",
+  "generated_at_utc": "2026-11-25T08:48:12+00:00",
   "strategy": "Kumo Breakout 9/26/52 (daily, bougies clôturées)",
   "universe": "top 100 perps Hyperliquid par volume moyen 90 j, HIP-3 inclus",
   "scanned": 100,
@@ -23,7 +23,7 @@
       "future_kumo": "vert",
       "future_kumo_confirms": true,
       "vol_moy_90j_usd": 13470641,
-      "volume_24h_usd": 11484642,
+      "volume_24h_usd": 11522122,
       "max_leverage": 20
     },
     {
@@ -45,7 +45,7 @@
       "future_kumo": "rouge",
       "future_kumo_confirms": false,
       "vol_moy_90j_usd": 11045507,
-      "volume_24h_usd": 7947995,
+      "volume_24h_usd": 8034677,
       "max_leverage": 10
     }
   ],
