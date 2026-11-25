@@ -1,0 +1,53 @@
+{
+  "generated_at_utc": "2026-11-25T07:46:51+00:00",
+  "strategy": "Kumo Breakout 9/26/52 (daily, bougies clôturées)",
+  "universe": "top 100 perps Hyperliquid par volume moyen 90 j, HIP-3 inclus",
+  "scanned": 100,
+  "signals": [
+    {
+      "coin": "xyz:AMZN",
+      "dex": "xyz",
+      "params": "9/26/52",
+      "direction": "LONG",
+      "candle_date": "2026-11-24",
+      "close": 251.57,
+      "kumo_top": 240.185,
+      "kumo_bottom": 240.185,
+      "kumo_thickness_pct": 0.0,
+      "sl_opposite_edge": 240.185,
+      "sl_distance_pct": 4.53,
+      "tenkan": 260.105,
+      "kijun": 249.41500000000002,
+      "tenkan_above_kijun": true,
+      "chikou_confirms": true,
+      "future_kumo": "vert",
+      "future_kumo_confirms": true,
+      "vol_moy_90j_usd": 13470641,
+      "volume_24h_usd": 11484642,
+      "max_leverage": 20
+    },
+    {
+      "coin": "xyz:MRNA",
+      "dex": "xyz",
+      "params": "9/26/52",
+      "direction": "LONG",
+      "candle_date": "2026-11-24",
+      "close": 227.0,
+      "kumo_top": 215.035,
+      "kumo_bottom": 192.52499999999998,
+      "kumo_thickness_pct": 9.92,
+      "sl_opposite_edge": 192.52499999999998,
+      "sl_distance_pct": 15.19,
+      "tenkan": 210.01,
+      "kijun": 235.345,
+      "tenkan_above_kijun": false,
+      "chikou_confirms": true,
+      "future_kumo": "rouge",
+      "future_kumo_confirms": false,
+      "vol_moy_90j_usd": 11045507,
+      "volume_24h_usd": 7947995,
+      "max_leverage": 10
+    }
+  ],
+  "errors": {}
+}
