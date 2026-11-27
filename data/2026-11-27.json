@@ -1,8 +1,10 @@
 {
-  "generated_at_utc": "2026-11-27T07:02:27+00:00",
+  "generated_at_utc": "2026-11-27T08:47:26+00:00",
   "strategy": "Kumo Breakout 9/26/52 (daily, bougies clôturées)",
   "universe": "top 100 perps Hyperliquid par volume moyen 90 j, HIP-3 inclus",
   "scanned": 100,
   "signals": [],
-  "errors": {}
+  "errors": {
+    "para:RDDT": "('Connection broken: IncompleteRead(13968 bytes read, 1518 more expected)', IncompleteRead(13968 bytes read, 1518 more expected))"
+  }
 }
