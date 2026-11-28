@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-11-28T08:01:37+00:00",
+  "strategy": "Kumo Breakout 9/26/52 (daily, bougies clôturées)",
+  "universe": "top 100 perps Hyperliquid par volume moyen 90 j, HIP-3 inclus",
+  "scanned": 100,
+  "signals": [
+    {
+      "coin": "xyz:TSLA",
+      "dex": "xyz",
+      "params": "9/26/52",
+      "direction": "LONG",
+      "candle_date": "2026-11-27",
+      "close": 398.97,
+      "kumo_top": 385.1225,
+      "kumo_bottom": 379.4,
+      "kumo_thickness_pct": 1.43,
+      "sl_opposite_edge": 379.4,
+      "sl_distance_pct": 4.91,
+      "tenkan": 373.04,
+      "kijun": 374.78,
+      "tenkan_above_kijun": false,
+      "chikou_confirms": false,
+      "future_kumo": "rouge",
+      "future_kumo_confirms": false,
+      "vol_moy_90j_usd": 35098537,
+      "volume_24h_usd": 46925945,
+      "max_leverage": 20
+    }
+  ],
+  "errors": {}
+}
